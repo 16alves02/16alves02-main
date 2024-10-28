@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Leonardo Alves | Portfólio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ícone do separador -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <!-- Logo com link para a página inicial -->
+        <a href="/">
+          <img src="assets/logo.png" alt="Leonardo Alves" />
+        </a>
+        <!-- Links de navegação -->
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Competências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contacto</a></li>
+        </ul>
+        <!-- Menu mobile -->
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="sanduiche" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Competências</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou o Leonardo Alves, Desenvolvedor Front-End</h1>
+        <p>
+          Focado em criar interfaces modernas e funcionais, com experiência em web design e gestão de bases de dados. Estou sempre à procura de novas formas de aprimorar a experiência do utilizador e otimizar a organização dos dados.
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/leonardo-alves.jpg" alt="Leonardo Alves" class="leonardo" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Sobre mim</h2>
+        <p>
+          Sou Leonardo Alves, desenvolvedor **front-end** com foco em **web design** e **gestão de bases de dados**. Com uma forte paixão por criar interfaces intuitivas e atrativas, gosto de combinar estética com funcionalidade. Tenho formação em Gestão e Programação de Sistemas Informáticos e experiência prática no desenvolvimento de sites e sistemas.
+        </p>
+        <ul>
+          <!-- Redes sociais -->
+          <li>
+            <a href="https://instagram.com/16alves02"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61557924755370"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/16alves02"><img src="assets/github.svg" alt="GitHub" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">Formação e Experiência</h3>
+        <p>
+          Tenho formação técnica em Gestão e Programação de Sistemas Informáticos, e experiência prática com desenvolvimento **front-end**, **design de interfaces** e **gestão de bases de dados**. Criei projetos desde websites simples a sistemas completos de gestão de dados.
+        </p>
+      </div>
+    </section>
+
+    <!-- Competências -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Competências Técnicas</h2>
+        <p class="description">
+          Estas são as ferramentas e habilidades que utilizo para criar soluções criativas e funcionais.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Desenvolvimento Front-End" />
+            </div>
+            <h3>Desenvolvimento Front-End</h3>
+            <p>
+              Criação de interfaces modernas e responsivas, utilizando HTML, CSS e JavaScript.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/colors.png" alt="Web Design" />
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              Habilidade em criar layouts atraentes e funcionais, focados na experiência do utilizador.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/files.png" alt="Gestão de Bases de Dados" />
+            </div>
+            <h3>Gestão de Bases de Dados</h3>
+            <p>
+              Experiência com MySQL e técnicas de organização e otimização de dados.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos Recentes</h2>
+        <p>
+          Aqui estão alguns dos meus projetos mais recentes!
+        </p>
+      </div>
+      <ul>
+        <!-- Primeiro projeto -->
+        <li>
+          <div class="image">
+            <img src="assets/numeralnest.png" alt="NumeralNest Calculator" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">NumeralNest Calculator</h3>
+            <p>
+              Uma calculadora web que realiza operações aritméticas básicas com uma interface responsiva.
+            </p>
+            <a href="https://github.com/16alves02/NumeralNest-Calculator">Ver no GitHub &rarr;</a>
+          </div>
+        </li>
+        <!-- Outro projeto -->
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/tasktracker.png" alt="TaskTracker" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">TaskTracker</h3>
+            <p>
+              Aplicação web que permite gerir tarefas e despesas, com uma interface simples e prática.
+            </p>
+            <a href="https://github.com/16alves02/TaskTracker">Ver no GitHub &rarr;</a>
+          </div>
+        </li>
+        <!-- Último projeto -->
+        <li>
+          <div class="image">
+            <img src="assets/brainteasers.jpg" alt="Brain Teasers Quiz" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">Brain Teasers Quiz</h3>
+            <p>
+              Jogo de quiz interativo com perguntas desafiadoras, usei um API externo para dinamizar o conteúdo.
+            </p>
+            <a href="https://github.com/16alves02/BrainTeasersQuiz">Ver no GitHub &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer__content max-width mb-0">
+      <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+      <p class="mb-m">
+        Estou sempre disponível para discutir novas ideias e projetos. Entre em contacto!
+      </p>
+      <div class="footer__contact mb-m">
+        <span class="mb-m">16alves02@gmail.com</span>
+        <span>+351 913 958 525</span>
+      </div>
+      <ul class="mb-l">
+        <!-- Redes sociais -->
+        <li>
+          <a href="https://instagram.com/16alves02"><img src="assets/instagram.svg" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61557924755370"><img src="assets/facebook.svg" alt="Facebook" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/16alves02"><img src="assets/github.svg" alt="GitHub" /></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        © 2024 Leonardo Alves. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+  <!-- script -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
